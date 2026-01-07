@@ -1,0 +1,28 @@
+a {
+    font-size: 15px;
+    background-color: gray;
+    color: gold;
+}
+
+section {
+    height: 300px;
+    background-color: plum;
+    border: 10px solid gold;
+}
+
+h1 {
+    font-size: 30px;
+    color: gold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer {
+    height: 300px;
+    width: 70%;
+    background-color: brown;
+}
+
+h2 {
+    text-decoration: line-through;
+}
