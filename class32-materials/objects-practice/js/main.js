@@ -1,6 +1,95 @@
 // Come up with with a parent class
 // Extend that parent class into two children
 // Use Encapsulation, Abstraction, Inheritance, and Polymorphism 
+class Contractor {
+    constructor(name, role){
+        this._name = name
+        this._role = role
+    }
+    get name(){
+        return this._name
+    }
+    get  role(){
+        return this._ole
+    }
+    sayHello(){
+       console.log(`Hello my name is ${this._name} and I do ${this._role}`)
+    }
+}
+class Front extends Contractor{
+    constructor(name, role, tech){
+        super(name,role)
+        this._tech = tech
+    }
+    get tech(){
+        return this._tech
+    }
+    sayHell(){
+        console.log(`Hello I am on ${this._role} and work with ${this._tech} at #100Devs`)
+    }
+}
+class Back extends Contractor{
+    constructor(name, role, tech){
+        super(name,role)
+        this._tech = tech
+    }
+    get tech(){
+        return this._tech
+    }
+    sayHell(){
+        console.log(`Hello I am on ${this._role} and work with ${this._tech} at #100Devs`)
+    }
+}
+
+let machi = new Front('The Machine', 'Fornt-end', 'React')
+let simba = new Back('Simba', 'Back-end', 'Node')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // class Contractor{
 //     constructor(name,role){
 //         this._name = name
