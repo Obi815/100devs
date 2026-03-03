@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
       if(params['student']== 'leon'){
         res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
-          name: "leon",
+           name: "leon",
           status: "Boss Man",
           currentOccupation: "Baller"
         }
@@ -59,7 +59,7 @@ const server = http.createServer((req, res) => {
   }else if (page == '/js/main.js'){
     fs.readFile('js/main.js', function(err, data) {
       res.writeHead(200, {'Content-Type': 'text/javascript'});
-      res.write(data);
+      res.write(data); 
       res.end();
     });
   }else{
